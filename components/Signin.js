@@ -128,7 +128,16 @@ export default function Signin() {
                       خوش برگشتی!
                     </div>
                   </div>
-                  <p className="text-sm font-semibold mb-2 text-center">
+                  <div className="mb-2s  ">
+                    <p className="text-sm text-gray-500">
+                      رمز پنل ادمین برای تست:
+                    </p>
+                    <span className="text-gray-500">
+                      ایمیل:daniyaldehghani.2023@gmail.com
+                    </span>
+                  </div>
+                  <span className="text-gray-500">رمز:123</span>
+                  <p className="text-sm font-semibold mb-2 mt-2 text-center">
                     با وارد کردن اطلاعات خود به حسابتان وارید شوید.
                   </p>
                   <div className="mx-auto max-w-xs">
@@ -174,7 +183,8 @@ export default function Signin() {
                       {guestLoading ? "در حال ورود…" : "ورود به‌عنوان مهمان"}
                     </button>
                     <p className="mt-2 text-center text-[11px] text-mut">
-                      بدون ثبت‌نام رزرو کن؛ رزروهایت تا ۳۰ روز در همین مرورگر می‌ماند و همیشه با کد پیگیری قابل پیگیری است.
+                      بدون ثبت‌نام رزرو کن؛ رزروهایت تا ۳۰ روز در همین مرورگر
+                      می‌ماند و همیشه با کد پیگیری قابل پیگیری است.
                     </p>
                     <p className="mt-6 text-xs text-mut text-center">
                       حساب کاربری ندارید؟
